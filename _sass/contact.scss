@@ -1,0 +1,15 @@
+.contact-form input, .contact-form textarea {
+    margin: 10px 0;
+    padding: 4px 10px;
+    width: 100%;
+    border: 2px solid rgba($primary-text-color, 0.2);
+    border-radius: 8px;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    border-color: rgba($primary-text-color, 0.3);
+}
+
+.contact-form input[type=submit] {
+    background: rgba($primary-text-color, 0.1);
+}
